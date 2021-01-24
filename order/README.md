@@ -1,9 +1,14 @@
 # appointment-schedulers
-web application for scheduling appointments using mean stack
 
-## MongoDB and Node requried
+Order service
 
-### Run 'gulp' to do the initial database setup, install dependencies and run the server 
+Use below API to submit Order
 
-
-### Note :- if gulp did not work run 'npm install', 'mongo localhost:27017/appointmentsApp --quiet scripts/mongo.js' and 'npm start'
+API - http://localhost:8000/v1/notification/subscribe
+POST
+Parameters - 
+{
+	"name": <name of Product>,
+	"qty": <quantity of product>,
+	"company": <name of seller>
+}
