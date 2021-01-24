@@ -1,0 +1,29 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "description": "Notification servie",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha — timeout 10000",
+    "start": "node app.js"
+  },
+  "author": "auth",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bunyan": "^1.8.12",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "convict": "^4.2.0",
+    "express": "^4.16.3",
+    "ioredis": "^4.19.4",
+    "joi": "^17.3.0",
+    "kafkajs": "^1.15.0",
+    "mocha": "^8.2.1",
+    "nodemailer": "^6.4.17",
+    "twilio": "^3.55.0"
+  }
+}

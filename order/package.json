@@ -1,0 +1,23 @@
+{
+  "name": "order",
+  "version": "1.0.0",
+  "description": "Place order servie",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "auth",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bunyan": "^1.8.12",
+    "convict": "^4.2.0",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "joi": "^17.3.0",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^1.15.0",
+    "uuid": "^3.2.1"
+  }
+}
